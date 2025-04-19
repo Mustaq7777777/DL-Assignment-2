@@ -36,7 +36,7 @@ pip install torch torchvision scikit-learn tqdm wandb
 
 ---
 
-## 🌱 Dataset Layout
+## Dataset Layout
 
 Place your iNaturalist‑12K data under a base directory with subfolders:
 
@@ -54,7 +54,7 @@ Override with `--base_dir` when running.
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ➡️ **If you're running this on Kaggle**, replace the login step with:
 ```python
@@ -99,7 +99,7 @@ Make sure to replace `YOUR_WANDB_API_KEY` with your actual key.
 
 ---
 
-## 🎛️ Command-Line Arguments
+## Command-Line Arguments
 
 | Argument             | Description                                     | Type         | Default                      | Choices                         |
 |----------------------|-------------------------------------------------|--------------|------------------------------|---------------------------------|
