@@ -1,6 +1,8 @@
 # Fine‑Tuning ResNet‑50 on iNaturalist‑12K (Assignment 2 Part B)
 
-This repository fine‑tunes a pretrained ResNet‑50 model on the iNaturalist‑12K dataset using PyTorch and Weights & Biases.
+This repository fine‑tunes a pretrained ResNet‑50 model on the iNaturalist‑12K dataset using PyTorch and Weights & Biases (W&B) for experiment tracking.
+
+The fine‑tuning approach used in this project follows a transfer learning strategy where all layers of the ResNet‑50 backbone are frozen, and only the final classification layer is trained. By freezing the pretrained layers, we retain the general visual features learned from ImageNet, while allowing the model to specialize in the specific classes of the iNaturalist‑12K dataset. This method is efficient, reduces the risk of overfitting, and speeds up the training process—especially beneficial when working with limited computational resources or relatively small datasets.
 
 ---
 
@@ -101,7 +103,6 @@ Override with `--base_dir` when running.
 | `--batch_size`, `-b` | Mini‑batch size                                     | int    | 64            | ≥1            |
 | `--learning_rate`, `-lr` | Initial learning rate                          | float  | 1e‑4          | >0            |
 | `--augmentation`, `-au` | Enable data augmentation                         | bool   | true          | `true`, `false` |
-| `--strategy`, `-s`   | Fine‑tuning strategy (1=freeze backbone)            | int    | 1             | 1, 2          |
 | `--num_epochs`, `-e` | Number of training epochs                           | int    | 10            | ≥1            |
 
 ---
