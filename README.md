@@ -1,2 +1,4 @@
-Go inside partA folder for getting the code, details ..etc of partA of Assignment2
-Go inside partB folder for getting the code, details ..etc of partB of Assignment2
+## 📁 Assignment Structure
+
+-  Go inside the [`partA`](./partA) folder for the **code, details, and implementation of Part A** of Assignment 2.
+-  Go inside the [`partB`](./partB) folder for the **code, details, and implementation of Part B** of Assignment 2.
