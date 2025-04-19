@@ -6,6 +6,8 @@ The fine‑tuning approach used in this project follows a transfer learning stra
 
 ---
 
+**W&B Report:** [Link to the report](https://api.wandb.ai/links/cs24m045-indian-institute-of-technology-madras/eqz85zxz)
+
 ## 📂 Repository Structure
 
 ```
