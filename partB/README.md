@@ -10,6 +10,7 @@ This repository fine‑tunes a pretrained ResNet‑50 model on the iNaturalist�
 ├── config.py        # Parses CLI args and fixed default hyperparameters
 ├── data_model.py    # Data loading, augmentation, and pretrained model setup
 ├── train.py         # Training, validation, and testing logic with W&B run name
+├── dl_assignment2_partb.ipynb #colab note book
 └── README.md        # Instructions and argument reference
 ```
 
