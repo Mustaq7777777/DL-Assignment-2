@@ -95,7 +95,7 @@ Override with `--base_dir` when running.
 
 ---
 
-## 🎛️ Command‑Line Arguments
+## Command‑Line Arguments
 
 | Argument             | Description                                         | Type   | Default       | Choices       |
 |----------------------|-----------------------------------------------------|--------|---------------|---------------|
