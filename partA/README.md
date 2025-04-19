@@ -3,6 +3,7 @@
 This repository implements a **configurable** convolutional neural network (CNN) in PyTorch, designed to classify images from the iNaturalist‑12K dataset (10 classes). You can adjust architecture and training hyperparameters via command‑line arguments or by editing the `DEFAULT_CONFIG` in `config.py`.
 
 ---
+**W&B Report:** [Link to the report](https://api.wandb.ai/links/cs24m045-indian-institute-of-technology-madras/eqz85zxz)
 
 ## 📂 Repository Structure
 
