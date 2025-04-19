@@ -34,7 +34,9 @@ pip install torch torchvision scikit-learn tqdm wandb
 
 ---
 
-## 🌱 Dataset Layout
+## Dataset Layout
+
+!!!This is mandatory
 
 Organize your iNaturalist‑12K dataset under a base directory:  
 
@@ -54,7 +56,7 @@ Override with `--base_dir` when running.
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. **Authenticate with W&B** (once per environment):
    ```python
@@ -109,5 +111,4 @@ Override with `--base_dir` when running.
 - The **run name** logged to W&B includes strategy, batch size, learning rate, augmentation flag, and epochs for clarity.  
 - Ensure your dataset directory matches the layout and prerequisites are installed.
 
-Happy fine‑tuning! 🎉
 
