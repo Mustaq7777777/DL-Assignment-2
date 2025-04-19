@@ -10,7 +10,8 @@ This repository implements a **configurable** convolutional neural network (CNN)
 ├── config.py        # Parses CLI args and defines default hyperparameters
 ├── data.py          # Data loading, augmentation, and train/val/test split
 ├── model.py         # CNN architecture and model initialization
-├── train.py         # Main training, validation, testing loop & W&B logging
+├── train.py        # Main training, validation, testing loop & W&B logging
+├── da6401_assignment2_parta.ipynb #google colab file
 └── README.md        # Usage instructions and argument reference
 ```
 
@@ -35,7 +36,9 @@ pip install torch torchvision scikit-learn tqdm wandb
 
 ---
 
-## 🌱 Dataset Layout
+##  Dataset Layout
+
+!!! This is mandatory
 
 Place your iNaturalist‑12K data under a base directory with subfolders:
 
@@ -53,7 +56,7 @@ Override with `--base_dir` when running.
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 ➡️ **If you're running this on Kaggle**, replace the login step with:
 ```python
